@@ -1,0 +1,10 @@
+package br.com.arq.tardis.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import br.com.arq.tardis.entity.Users;
+
+@Repository
+public interface UsersRepository extends JpaRepository<Users,Long>{
+
+}

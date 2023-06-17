@@ -1,0 +1,14 @@
+package br.com.arq.tardis.entity;
+
+import java.io.Serializable;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+
+@Entity
+@Table (name="users")
+public class Users implements Serializable{
+
+	
+}
