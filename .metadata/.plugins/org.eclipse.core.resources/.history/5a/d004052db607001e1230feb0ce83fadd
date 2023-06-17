@@ -1,5 +1,0 @@
-package br.com.arq.tardis.repository;
-
-public interface RoleRepository {
-
-}
